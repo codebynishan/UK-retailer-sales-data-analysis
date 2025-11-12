@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes historical sales data to uncover key business insights, identify trends, and highlight top-performing products and customers. The primary goal is to provide actionable recommendations for business strategy and performance improvement.
+This project analyzes historical sales data  which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. to uncover key business insights, identify trends, and highlight top-performing products and customers. The primary goal is to provide actionable recommendations for business strategy and performance improvement.
 
 ## Objectives
 
@@ -31,11 +31,8 @@ The dataset contains transactional sales data with the following columns:
 
 * Removed duplicate transactions.
 * Handled missing or null values.
-* Corrected data types (e.g., `InvoiceDate` as datetime).
+* Corrected data types 
 * Created calculated fields:
-
-  * **Revenue = Quantity × UnitPrice**
-  * **Total Sales per Product**
 * Filtered out negative quantities where necessary for certain visualizations.
 
 ## Analysis & Insights
